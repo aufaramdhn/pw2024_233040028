@@ -24,7 +24,7 @@ $hardwares = ["Motherboard", "Processor", "Hard Disk", "PC Coller", "VGA Card", 
     <ol>
         <?php
         array_push($hardwares, "Card Reader", "Modem");
-        asort($hardwares);
+        sort($hardwares);
         foreach ($hardwares as $hardware) : ?>
             <li><?= $hardware ?></li>
         <?php endforeach ?>
