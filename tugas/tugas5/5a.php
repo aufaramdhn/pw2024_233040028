@@ -87,7 +87,7 @@ $students = [
 
 <body>
     <h1>Daftar Mahasiswa</h1>
-    <span>Nyalakan internet karena gambar menggunakan API dari random image generator <a href="https://randomuser.me">here</a></span>
+    <span>Nyalakan internet agar gambar muncul, karena gambar menggunakan API dari random image generator <a href="https://randomuser.me">here</a></span>
     <ul style="list-style-type:none">
         <?php
         foreach ($students as $student) : ?>
